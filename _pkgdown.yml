@@ -1,0 +1,24 @@
+url: https://tribalxg.github.io/dataQCtools/
+template:
+  bootstrap: 5
+
+# articles:
+#   - title: "Cropping data based on deployment and retrieval times"
+#     contents:
+#       - "articles/cropping"
+#   - title: "Making QC plots"
+#     contents:
+#       - "articles/qcplots"
+#   - title: "Computing 7DADM and identifying site impairments"
+#     contents:
+#       - "articles/7DADM_site_impairment"
+
+# https://tribalxg.github.io/dataQCtools/articles/index.html
+
+articles:
+- title: Articles
+  navbar: ~
+  contents:
+  - articles/cropping
+  - articles/qcplots
+  - articles/7DADM_site_impairment

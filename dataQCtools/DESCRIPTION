@@ -1,0 +1,28 @@
+Package: dataQCtools
+Title: Automate data cropping, QC, and more
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jess", "Kunke", , "jessicakunke@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0006-1475-3734"))
+Description: What the package does (one paragraph).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr,
+    fs,
+    ggplot2,
+    htmlwidgets,
+    lubridate,
+    magrittr,
+    plotly,
+    readr,
+    readxl,
+    rlang,
+    runner,
+    stringr,
+    tidyr,
+    utils
+URL: https://tribalxg.github.io/dataQCtools/
+Config/Needs/website: rmarkdown

@@ -1,0 +1,8 @@
+grp_type,start_date,end_date,wqs
+core_sal,1-Oct,30-Sep,16
+core_sal_supp1,1-Sep,1-Jul,13
+core_sal_supp1,2-Jul,31-Aug,16
+core_sal_supp2,15-Feb,1-Jul,13
+core_sal_supp2,2-Jul,14-Feb,16
+char,1-Oct,30-Sep,12
+NA,1-Oct,30-Sep,50

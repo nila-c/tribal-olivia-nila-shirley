@@ -5,17 +5,12 @@ library(here)
 here::i_am("statistics/7DADM-calc.R")
 
 # loading data -------------------
-<<<<<<< HEAD
 ho_wqts <- readRDS(here("data_for_proj3", "hoh_wqts.rds"))
-=======
-ho_tqwd <- read_csv(here("Hoh_Data", "Hoh_TWQD_DBO.csv"), na = "NULL")
-ho_wqts <- readRDS(here("Hoh_Data", "ho_wqts.rds"))
->>>>>>> df7f655f32b74f02a45c7de0fbd72085c15a4123
 
 # I'm not super sure which one is the actual SiteName column, so I'll use
 # MONLOC_AB instead since that seems like the best bet
 
-# Statistics are calculated in 
+# 7DADM, DailyMax, and DailyMin are calculated
 ho_wqts_7dadm <- ho_wqts %>%
   filter(CharacteristicName == "Temperature, water") %>%
   group_by(Date, MONLOC_AB) %>%
